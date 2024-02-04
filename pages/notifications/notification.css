@@ -1,0 +1,159 @@
+:root {
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+  
+    /* ### Neutral */
+  
+    --White: hsl(0, 0%, 100%);
+    --Very-light-grayish-blue: hsl(210, 60%, 98%);
+    --Light-grayish-blue-1: hsl(211, 46%, 55%);
+    --Light-grayish-blue-2: hsl(205, 69%, 40%);
+    --Grayish-blue: hsl(218, 33%, 51%);
+    --Dark-grayish-blue: hsl(219, 13%, 30%);
+    --Very-dark-blue: hsl(224, 21%, 14%);
+  }
+  
+  /* Importing Google font - Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+  main {
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 7px;
+    
+  }
+  
+  span {
+    padding: 7px;
+    color: white;
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 6px;
+    padding: 9px;
+    margin: 6px;
+  }
+  
+  img {
+    height: 100%vh;
+    width: 54px;
+    height: 54px;
+  }
+  
+  .notif {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  #mark-all {
+    outline: none;
+    background: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+  #mark-all:hover {
+    color: var(--Blue);
+  }
+  
+  .name {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .name:hover {
+    color: var(--Blue);
+  }
+  
+  .notif-action {
+    font-weight: bold;
+  }
+  
+  .time {
+    font-size: 14px;
+    color: var(--Grayish-blue);
+  }
+  
+  li {
+    color: var(--Dark-grayish-blue);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8px;
+    margin: 1rem;
+    padding-left: 20px;
+    border-radius: 7px;
+    background-color: rgb(194, 225, 251);
+  }
+  li i{
+    width: 30px;
+  }
+  .name,
+  .description,
+  .notif-action,
+  .time {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    padding: 2px;
+  }
+  
+  .notif-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .notif-box-message {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name-desc {
+    display: flex;
+    align-items: center;
+  }
+  
+  .time2 {
+    padding-left: 57px;
+  }
+  
+  .message {
+    background-color: hsl(204, 31%, 94%);
+    width: 50%;
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 56px;
+  }
+  
+  .unread {
+    background-color: hsl(210, 57%, 88%);
+  }
+  
+  .unread .dot {
+    padding: 4px;
+    background-color: var(--Red);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 4px;
+  }
+  
+  .attribution {
+    text-align: center;
+  }
+  

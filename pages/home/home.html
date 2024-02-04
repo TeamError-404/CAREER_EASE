@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Home | Career Ease </title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link flex href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js" integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <h2 class="logo">
+            <a href="../home/home.html">Career Ease</a>
+        </h2>
+        
+        <ul class="links">
+          <li><a href="../home/home.html">Home</a></li>
+          <li><a href="../Job/job.html">Jobs</a></li>
+          <li><a href="../resume/resume.html">Resume </a></li>
+          <li><a href="../Interview/interview.html">Interview</a></li>
+        </ul>
+        
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="hero">
+        <h2>Hi, John !👋</h2>
+        <h4>Welcome to our community.</h4><br>
+        <p>
+            Career Ease ~ Your streamlined path to professional success, simplifying job searching, networking, and career growth in one intuitive app.
+        </p>
+        
+      </div>
+      <div class="img">
+        <img src="https://img.freepik.com/free-vector/headhunting-online-service-platform-idea-business-recruitment-human-resources-management-hr-manager-occupation-online-work-flat-vector-illustration_613284-3275.jpg?w=1060&t=st=1705783765~exp=1705784365~hmac=eb9cb3f8e6b97cda3d070c19a33c6d21b6a73e01bf14da88d273b074d78689fa" alt="hero image" />
+      </div>
+    </section>
+
+<!-- SIDE_BAR -->
+
+
+
+
+    <sidenav class="sidebar locked">
+      <div class="logo_items flex">
+        <span class="nav_image">
+          <button style="height: 40px;background-color: rgb(170, 187, 244); width: 40px;border-radius: 50%;"> N </button>
+        </span>
+        <a href="../manageaccount/account.html" class="logo_name" style="font-weight: 800;">John Doe </a>
+        <i class="bx bx-lock-alt" id="lock-icon" title="Unlock Sidebar"></i>
+        <i class="bx bx-x" id="sidebar-close"></i>
+      </div><hr>
+
+      <div class="menu_container">
+        <div class="menu_items">
+          <ul class="menu_item">
+            <div class="menu_title flex">
+              <span class="title">Dashboard</span>
+              <span class="line"></span>
+            </div>
+            <li class="item">
+              <a href="./home.html" class="link flex">
+                <i class="bx bx-home-alt"></i>
+                <span>Overview</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="../applications/app.html" class="link flex">
+                <i class="bx bx-grid-alt"></i>
+                <span>My Applications</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="../notifications/notification.html" class="link flex">
+                <i class="fa-solid fa-bell"></i>
+                <span>Notifications</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="../settings/settings.html" class="link flex">
+                <i class="bx bx-cog"></i>
+                <span>Settings</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="menu_item">
+            <div class="menu_title flex">
+              <span class="title">Editor</span>
+              <span class="line"></span>
+            </div>
+            <li class="item">
+              <a href="#" class="link flex">
+                <i class="bx bxs-magic-wand"></i>
+                <span>Edit Resume</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#preferences" class="link flex">
+                <i class="bx bx-folder"></i>
+                <span>Edit Preferences</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="menu_item">
+            <div class="menu_title flex">
+              <span class="title">Settings</span>
+              <span class="line"></span>
+            </div>
+            
+            <li class="item">
+              <a href="../manageaccount/account.html" class="link flex">
+                <i class="fa-solid fa-user"></i>
+                <span>Manage Account</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="../contact/contact.html" class="link flex">
+                <i class="fa-solid fa-message"></i>
+                <span>Contact Us</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="/career-ease/index.html" class="link flex">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                <span>Logout</span>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+
+      
+      </div>
+    </sidenav>
+
+    
+ 
+
+<!-- SLIDER -->
+
+<div class="slider" id="preferences">
+  <h2 style="font-size: 1.9rem;">Your Preferences</h2>
+    <div class="wrapper">
+      <div class="icon"><i id="left" class="fa-solid fa-arrow-left"></i></div>
+      <ul class="tabs-box">
+        <li class="tab">Machine Learning</li>
+        <li class="tab active"> Data Science</li>
+        <li class="tab">SQL for Data Analytics</li>
+        <li class="tab">Databases</li>
+        <li class="tab">Web Development</li>
+        <li class="tab">App Development</li>
+        <li class="tab">Deep Learning</li>
+        <li class="tab">SAS Programming</li>
+        <li class="tab">NLP</li>
+        <li class="tab">Algorithms</li>
+        <li class="tab">Graphic Design</li>
+        <li class="tab">UI?UX Design</li>
+        <li class="tab">Share Market</li>
+        <li class="tab">Digital  Art</li>
+        <li class="tab">Software Development</li>
+        <li class="tab">MATLAB</li>
+      </ul>
+      <div class="icon"><i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+</div>
+
+
+<!-- CARDS -->
+
+
+<div class="cards">
+  <h2>Recommended for you</h2>
+  <p>as per your <span style="color: blue;"> preferences.</span></p>
+<div class="card-list">
+  
+  <a href="#" class="card-item">
+      <span class="developer">Developer</span>
+      <h3>A "developer" codes software and websites.</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+  <a href="#" class="card-item">
+      <span class="designer">Designer</span>
+      <h3>A "designer" is a design expert.</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+  <a href="#" class="card-item">
+      <span class="editor">Editor</span>
+      <h3>An "editor" ensures content quality and accuracy.</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+  <a href="#" class="card-item">
+    <span class="designer">Editor</span>
+    <h3>An "editor" ensures content quality and accuracy.</h3>
+    <div class="arrow">
+        <i class="fas fa-arrow-right card-icon"></i>
+    </div>
+</a>
+<a href="#" class="card-item">
+  <span class="developer">Editor</span>
+  <h3>An "editor" ensures content quality and accuracy.</h3>
+  <div class="arrow">
+      <i class="fas fa-arrow-right card-icon"></i>
+  </div>
+</a>
+
+  
+</div>
+</div>
+
+<!-- TESTIMONIALS -->
+
+
+<div class="testimonial" ><br><br><br>
+  <h2 style="margin-top: 1100px;margin-left: 150px;font-size: 1.9rem;">Testimonials</h2>
+
+<div class="wrapper-test">
+
+  <div class="box">
+    <i class="fas fa-quote-left quote"></i>
+    <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p><br>
+    <div class="content">
+      <div class="info">
+        <div class="name">Alex Smith</div>
+        <div class="job" style="margin-top: 5px;">Designer | Developer</div><br>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="box">
+    <i class="fas fa-quote-left quote"></i>
+    <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p><br>
+    <div class="content">
+      <div class="info">
+        <div class="name">Steven Chris</div>
+        <div class="job" style="margin-top: 5px;">YouTuber | Blogger</div><br>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="box">
+    <i class="fas fa-quote-left  quote"></i>
+    <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p><br>
+    <div class="content">
+      <div class="info">
+        <div class="name">Kristina Bellis</div>
+        <div class="job" style="margin-top: 5px;">Freelancer | Advertiser</div><br>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+<br><br>
+
+<!-- FOOTER -->
+
+
+<footer class="footer">
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <h3 style="color: white;">Follow us on</h3>
+  <ul class="social-icon">
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a></li>
+  </ul>
+  <ul class="menu">
+    <li class="menu__item"><a class="menu__link" href="./home.html">Home</a></li>
+    <li class="menu__item"><a class="menu__link" href="../Job/job.html">Jobs</a></li>
+    <li class="menu__item"><a class="menu__link" href="../resume/resume.html">Resume</a></li>
+    <li class="menu__item"><a class="menu__link" href="../Interview/interview.html">Interview</a></li>
+    <li class="menu__item"><a class="menu__link" href="../contact/contact.html">Contact Us</a></li>
+
+  </ul>
+  <p>&copy  Error ~ 404 | All Rights Reserved.</p>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="home.js" defer></script>
+</body>
+</html>
